@@ -5,7 +5,7 @@ module Grape
       Grape::Endpoint.class_eval do
 
         def set_papertrail_user user
-					::PaperTrail.whodunnit = user
+	  ::PaperTrail.whodunnit = user
         end
 
       end
