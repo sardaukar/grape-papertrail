@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_development_dependency 'grape', '~> 0.6'
-  s.add_development_dependency 'actionpack', '~> 4.0'
+  s.add_development_dependency 'actionpack', '~> 4.0', '>= 4.0.12'
 end
