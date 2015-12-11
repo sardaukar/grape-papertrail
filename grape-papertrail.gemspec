@@ -17,4 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'grape', '~> 0.6'
   s.add_development_dependency 'actionpack', '~> 4.0', '>= 4.0.12'
+  
+	s.add_dependency 'nokogiri', '~> 1.6.6.4'
 end
