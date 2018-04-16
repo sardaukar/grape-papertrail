@@ -9,7 +9,7 @@ module Grape
         end
         
         def set_paper_trail_controller_info(info)
-          ::PaperTrail.controller_info = info
+          ::PaperTrail.request.controller_info = info
       	end
 
       end
