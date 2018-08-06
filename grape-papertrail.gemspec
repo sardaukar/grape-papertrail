@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_development_dependency 'grape', '~> 0.19'
-  s.add_development_dependency 'actionpack', '~> 5.x'
-  s.add_development_dependency 'actionview', '~> 5.x'
+  s.add_development_dependency 'actionpack', '~> 5.1'
+  s.add_development_dependency 'actionview', '~> 5.1'
   s.add_development_dependency 'rails-html-sanitizer', '~> 1.0', '>= 1.0.4'
 
-  s.add_runtime_dependency 'nokogiri', '~> 1.8.2'
+  s.add_runtime_dependency 'nokogiri', '~> 1.8', '>= 1.8.2'
   s.add_runtime_dependency 'loofah', '~> 2.2.x'
 end
