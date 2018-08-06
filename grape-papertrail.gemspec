@@ -15,10 +15,11 @@ Gem::Specification.new do |s|
   s.test_files    = Dir['spec/**/*']
   s.require_paths = ['lib']
 
-  s.add_development_dependency 'grape', '~> 0.6'
-  s.add_development_dependency 'actionpack', '~> 4.2', '>= 4.2.5.2'
-  s.add_development_dependency 'actionview', '~> 4.2', '>= 4.2.7.1'
-  s.add_development_dependency 'rails-html-sanitizer', '~> 1.0', '>= 1.0.3'
+  s.add_development_dependency 'grape', '~> 0.19'
+  s.add_development_dependency 'actionpack', '~> 5.x'
+  s.add_development_dependency 'actionview', '~> 5.x'
+  s.add_development_dependency 'rails-html-sanitizer', '~> 1.0', '>= 1.0.4'
 
-	s.add_runtime_dependency 'nokogiri', '~> 1.6', '>= 1.6.6.4'
+  s.add_runtime_dependency 'nokogiri', '~> 1.8.2'
+  s.add_runtime_dependency 'loofah', '~> 2.2.x'
 end
